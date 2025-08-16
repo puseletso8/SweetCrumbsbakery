@@ -1,0 +1,122 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4dfcc;
+  line-height: 1.6;
+}
+
+.site-header {
+  background: #f7c9b6;
+  text-align: center;
+  padding: 1rem;
+}
+
+.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  max-width: 120px;
+}
+
+.nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.nav li {
+  margin: 0 1rem;
+  border-top: none; /* remove top border */
+}
+
+.nav li a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav li a:hover {
+  color: #b14d3e;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+main {
+  background: #eed9d5f2;
+  padding: 2rem;
+  font-size: 1.1rem;
+}
+
+.site-footer {
+  background: #f7c9b6;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.round {
+  border-radius: 8px;
+}
+
+#products-main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  background: #f4e1ea;
+}
+
+#contact-main {
+  padding: 2rem;
+}
+
+.hours {
+  list-style: square;
+  margin-bottom: 1rem;
+}
+
+.tel-link {
+  color: #333;
+  font-weight: bold;
+}
+
+.external-link {
+  color: #0066cc;
+  text-decoration: underline;
+}
+
+.map iframe {
+  width: 100%;
+  border: none;
+  border-radius: 8px;
+}
+
+.action {
+  color: #f5bed3;
+  background: #b14d3e;
+  padding: 0.3rem 0.6rem;
+  border-radius: 4px;
+}
+

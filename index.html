@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SweetCrumbs Bakery | Home</title>
+  <link rel="stylesheet" href="StyleSheet/styles.CSS">
+</head>
+<body>
+  <header class="site-header sticky">
+    <h1>SweetCrumbs Bakery</h1>
+    <img src="images/logo.png" alt="SweetCrumbs Bakery Logo" class="logo round">
+    <nav>
+      <ul class="nav">
+        <li><a href="iidex.html" aria-current="page">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <figure class="hero">
+    <img src="images/hero.jpg" alt="SweetCrumbs fresh baked goods">
+  </figure>
+
+  <main>
+    <p>
+      Welcome to <strong>SweetCrumbs Bakery</strong>, where every crumb tells a story of passion,
+      tradition, and sweetness. Established in the heart of the community, SweetCrumbs brings
+      freshly baked breads, pastries, and cakes to your table every day. Our bakers rise early
+      to handcraft loaves, rolls, and specialty items that warm both the home and the heart.
+      From rustic sourdoughs to buttery croissants, every bite is made with love.
+      Don’t miss our <span style="color:rgb(251, 16, 51); font-weight:bold;">Special Sunday Cupcake Promo!</span>
+    </p>
+
+    <p>
+      At SweetCrumbs, we believe in quality ingredients and time-honored methods.
+      We source locally milled flour, farm-fresh eggs, and seasonal fruits to ensure every bake
+      bursts with flavor. Whether you’re looking for a wholesome loaf, a decadent slice of cake,
+      or a quick pastry for breakfast, SweetCrumbs has something for everyone.
+      Our staff is always ready with a smile, eager to help you find your new favorite treat.
+    </p>
+
+    <p>
+      Beyond baking, SweetCrumbs Bakery is a gathering place.
+      We host monthly workshops, decorate cakes for special occasions, and provide catering for
+      community events. By choosing us, you’re not just supporting a bakery—you’re supporting a
+      local dream that values family, tradition, and the joy of sharing food together.
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      <a class="tel-link" href="tel:+27110000000">☎ +27 11 000 0000</a> |
+      <a href="mailto:info@sweetcrumbs.co.za">✉ info@sweetcrumbs.co.za</a> |
+      <span>© <span id="year"></span> SweetCrumbs Bakery</span>
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

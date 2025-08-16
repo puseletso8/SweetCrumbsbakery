@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SweetCrumbs Bakery | Products</title>
+  <link rel="stylesheet" href="StyleSheet/styles.CSS">
+</head>
+<body>
+  <header class="site-header sticky">
+    <h1>SweetCrumbs Bakery</h1>
+    <img src="images/logo.png" alt="SweetCrumbs Bakery Logo" class="logo round">
+    <nav>
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html" aria-current="page">Products</a></li>
+        <li><a href="#" class="action">Shopping</a></li>
+        <li><a href="#" class="action">Registration</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="products-main">
+    <h2>Our Sweet Selection</h2>
+
+    <section class="product-card">
+      <img src="images/bread.jpg" alt="Fresh sourdough bread" class="round">
+      <h3>Sourdough Bread</h3>
+      <p>Traditional loaf fermented for 24 hours for maximum flavor.</p>
+      <ul>
+        <li>Ingredients: flour, water, salt</li>
+        <li>Allergens: gluten</li>
+      </ul>
+      <dl>
+        <dt>Weight</dt><dd>800g</dd>
+        <dt>Best served</dt><dd>Toasted or fresh</dd>
+      </dl>
+    </section>
+
+    <section class="product-card">
+      <img src="images/croissant.jpg" alt="Buttery croissant" class="round">
+      <h3>Butter Croissant</h3>
+      <p>Flaky layers of buttery goodness, baked to golden perfection.</p>
+      <ul>
+        <li>Ingredients: flour, butter, milk</li>
+        <li>Allergens: gluten, dairy</li>
+      </ul>
+      <dl>
+        <dt>Folds</dt><dd>27 layers</dd>
+        <dt>Best served</dt><dd>Warm</dd>
+      </dl>
+    </section>
+
+    <section class="product-card">
+      <img src="images/cake.jpg" alt="Chocolate cake" class="round">
+      <h3>Chocolate Cake</h3>
+      <p>Rich, moist cake topped with creamy chocolate frosting.</p>
+      <ul>
+        <li>Custom sizes available</li>
+        <li>Allergens: gluten, dairy, eggs</li>
+      </ul>
+      <dl>
+        <dt>Serves</dt><dd>8–12</dd>
+        <dt>Best served</dt><dd>Chilled</dd>
+      </dl>
+    </section>
+
+    <section class="product-card">
+      <img src="images/muffin.jpg" alt="Blueberry muffin" class="round">
+      <h3>Blueberry Muffin</h3>
+      <p>Soft muffins loaded with juicy blueberries.</p>
+      <ul>
+        <li>Sold individually or in boxes</li>
+        <li>Allergens: gluten, dairy, eggs</li>
+      </ul>
+      <dl>
+        <dt>Weight</dt><dd>100g each</dd>
+      </dl>
+    </section>
+
+    <section class="product-card">
+      <img src="images/pastry.jpg" alt="Danish pastry" class="round">
+      <h3>Almond Danish</h3>
+      <p>Golden pastry filled with almond cream and topped with flakes.</p>
+      <ul>
+        <li>Allergens: gluten, nuts, dairy</li>
+      </ul>
+      <dl>
+        <dt>Flavor</dt><dd>Sweet almond</dd>
+      </dl>
+    </section>
+
+    <section class="product-card">
+      <img src="images/tart.jpg" alt="Fruit tart" class="round">
+      <h3>Fruit Tart</h3>
+      <p>Buttery base topped with custard and fresh fruit.</p>
+      <ul>
+        <li>Best kept refrigerated</li>
+        <li>Allergens: gluten, dairy, eggs</li>
+      </ul>
+      <dl>
+        <dt>Size</dt><dd>8 inch</dd>
+      </dl>
+    </section>
+
+    <p>
+      Learn more about artisan baking at
+      <a href="https://www.artisanbaker.co.za" target="_blank" class="external-link">Artisan Baker SA</a>.
+    </p>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      <a class="tel-link" href="tel:+27110000000">☎ +27 11 000 0000</a> |
+      <a href="mailto:info@sweetcrumbs.co.za">✉ info@sweetcrumbs.co.za</a> |
+      <span>© <span id="year"></span> SweetCrumbs Bakery</span>
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

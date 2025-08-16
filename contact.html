@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SweetCrumbs Bakery | Contact</title>
+  <link rel="stylesheet" href="StyleSheet/styles.CSS">
+</head>
+<body>
+  <header class="site-header sticky">
+    <h1>SweetCrumbs Bakery</h1>
+    <img src="images/logo.png" alt="SweetCrumbs Bakery Logo" class="logo round">
+    <nav>
+      <ul class="nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="products.html">Products</a></li>
+        <li><a href="contact.html" aria-current="page">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contact-main">
+    <h2>Contact SweetCrumbs</h2>
+    <ul class="hours">
+      <li>Mon–Fri: 07:00 – 18:00</li>
+      <li>Saturday: 08:00 – 16:00</li>
+      <li>Sunday: Closed</li>
+    </ul>
+
+    <p>
+      Phone: <a class="tel-link" href="tel:+27110000000">+27 11 000 0000</a><br>
+      Email: <a href="mailto:info@sweetcrumbs.co.za">info@sweetcrumbs.co.za</a><br>
+      Address: 123 Baker Street, Johannesburg, South Africa
+    </p>
+
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18..." width="600" height="450" style="border:0;" allowfullscreen loading="lazy"></iframe>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <p>
+      <a class="tel-link" href="tel:+27110000000">☎ +27 11 000 0000</a> |
+      <a href="mailto:info@sweetcrumbs.co.za">✉ info@sweetcrumbs.co.za</a> |
+      <span>© <span id="year"></span> SweetCrumbs Bakery</span>
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
